@@ -1,0 +1,8 @@
+#稳定性 要注意
+bubble_sort 冒泡排序算法的实现 时间复杂度o(n^2)稳定性：不稳定
+selection_sort 选择排序 时间复杂度 o(n^2) 稳定性：不稳定
+insert_sort 插入排序 时间复杂度 o(n^2) 稳定性：稳定
+quick_sort 快速排序 引入low与high坐标 稳定性：不稳定
+merge_sort 归并排序 引入额外空间 时间复杂度 o(nlog^n) 稳定性：稳定
+
+

@@ -1,0 +1,24 @@
+# a,b,c 属于【0,1000】，求满足a+b+c==1000 and a**2+b**2==c**2:的abc 的所有组合
+import time
+
+res = []
+
+start_tiem = time.time()
+# for i in range(0,101):
+#     for j in range(0,101):
+#         for c in range(0,101):
+#             if i+j+c==100 and i*i+j*j==c*c:
+#                 list1=[i,j,c]
+#                 res.append(list1)
+
+# //改进  c=1000-a-b
+
+for i in range(0, 1000):
+    for j in range(0, 1000):
+        c = 1000 - i - j
+        if i * i + j * j == c * c:
+            list1 = [i, j, c]
+            res.append(list1)
+end_time = time.time()
+time1=start_tiem-end_time
+print(res, time1)

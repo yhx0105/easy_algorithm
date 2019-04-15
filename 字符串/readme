@@ -1,0 +1,6 @@
+#文件夹主要讲述一些字符串的算法
+包括：01_naive_matching.py 朴素串匹配
+    02_matching_kmp.py kmp匹配算法，匹配算法的优化
+    03_laji.py 帮李航写的 但是结果太烂了
+    04_regex_match.py 正则的一些小用法 以后还要多熟悉
+
